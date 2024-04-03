@@ -63,7 +63,7 @@ class GoogleOAuth {
             $userInfo = $this->getUserInfo($userInfoUrl);
             $_SESSION['userInfoData'] = json_decode($userInfo, true);
         } else {
-            echo "Error en la recolección de datos";
+            echo "";
         }
     }
 
