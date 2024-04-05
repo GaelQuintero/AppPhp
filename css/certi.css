@@ -1,0 +1,69 @@
+body {
+    font-family: fantasy;
+    height: 80vh; /* Ajustar al 100% de la altura de la ventana del navegador */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    position: relative; /* Hacer que el cuerpo sea un contenedor relativo */
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    position: absolute; /* Posicionar de manera absoluta */
+    top: 20px; /* Distancia desde la parte superior */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translateX(-50%); /* Centrar horizontalmente */
+    font-family: fantasy;
+}
+
+.certificado p {
+    margin-bottom: 10px;
+}
+
+.certificado strong {
+    font-weight: bold;
+}
+
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #17bb3b;
+    border-radius: 10px;
+    background-color: #f9f9f9d5;
+    display: flex;
+    flex-direction: column; /* Colocar los elementos uno encima del otro */
+    align-items: center; /* Centrar los elementos horizontalmente */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px); /* Ajustar al 100% del ancho del formulario con el margen */
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: calc(100% - 20px); /* Ajustar al 100% del ancho del formulario con el margen */
+    padding: 10px;
+    background-color: #4CAF50;
+    color: rgb(225, 235, 234);
+    border: none;
+    border: 1px solid #000000;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+}
