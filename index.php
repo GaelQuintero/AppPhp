@@ -55,9 +55,7 @@ if (!isset($_SESSION['access_token'])) {
         <div class="col">
             <!-- Aquí puedes mostrar los registros académicos recuperados de la cadena de bloques -->
             <?php
-            // Aquí deberías escribir el código PHP para interactuar con la blockchain y obtener los registros académicos del usuario
-            // Por ejemplo, podrías usar una biblioteca PHP para interactuar con un contrato inteligente en una blockchain Ethereum
-            // y recuperar los registros académicos del usuario autenticado
+           
             ?>
             <div class="card">
                 <div class="card-body">
