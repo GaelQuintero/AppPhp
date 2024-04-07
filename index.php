@@ -49,6 +49,45 @@ if (!isset($_SESSION['access_token'])) {
   </div>
 </div>
 
+<div class="container mt-4">
+    <h2 class="text-success">Registros Académicos</h2>
+    <div class="row">
+        <div class="col">
+            <!-- Aquí puedes mostrar los registros académicos recuperados de la cadena de bloques -->
+            <?php
+            // Aquí deberías escribir el código PHP para interactuar con la blockchain y obtener los registros académicos del usuario
+            // Por ejemplo, podrías usar una biblioteca PHP para interactuar con un contrato inteligente en una blockchain Ethereum
+            // y recuperar los registros académicos del usuario autenticado
+            ?>
+            <div class="card">
+                <div class="card-body">
+                    <!-- Aquí deberías mostrar los registros académicos recuperados -->
+                    <!-- Por ejemplo, podrías mostrar una tabla con los detalles de los registros académicos -->
+                    <!-- <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Materia</th>
+                                <th>Nota</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Matemáticas</td>
+                                <td>90</td>
+                            </tr>
+                            <tr>
+                                <td>Ciencias</td>
+                                <td>85</td>
+                            </tr>
+                            <!-- Aquí podrías iterar sobre los registros académicos y mostrarlos en la tabla -->
+                        </tbody>
+                    </table> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
