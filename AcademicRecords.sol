@@ -1,8 +1,11 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.0;
 
 
 contract AcademicRecords {
-    // Definición de la clase StudentRecord
-    struct StudentRecords {
+    // Estructura para almacenar los registros académicos de un estudiante
+    struct StudentRecord {
         string studentName;
         uint256[] grades;
         address school;
@@ -13,12 +16,7 @@ contract AcademicRecords {
     
     // Función para añadir un nuevo registro académico
     function addAcademicRecord(string memory _studentName, uint256[] memory _grades) public {
-        // Crear una instancia de StudentRecord
-        StudentRecord storage newRecord = studentRecords[msg.sender];
-        // Asignar los valores a la nueva instancia
-        newRecord.studentName = _studentName;
-        newRecord.grades = _grades;
-        newRecord.school = msg.sender;
+        studentRecords[msg.sender] = StudentRecord(_studentName, _grades, msg.sender);
     }
     
     // Función para obtener los registros académicos de un estudiante
@@ -26,4 +24,3 @@ contract AcademicRecords {
         return (studentRecords[_studentAddress].studentName, studentRecords[_studentAddress].grades);
     }
 }
-

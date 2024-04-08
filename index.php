@@ -49,42 +49,7 @@ if (!isset($_SESSION['access_token'])) {
   </div>
 </div>
 
-<div class="container mt-4">
-    <h2 class="text-success">Registros Académicos</h2>
-    <div class="row">
-        <div class="col">
-            <!-- Aquí puedes mostrar los registros académicos recuperados de la cadena de bloques -->
-            <?php
-           
-            ?>
-            <div class="card">
-                <div class="card-body">
-                    <!-- Aquí deberías mostrar los registros académicos recuperados -->
-                    <!-- Por ejemplo, podrías mostrar una tabla con los detalles de los registros académicos -->
-                    <!-- <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Materia</th>
-                                <th>Nota</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Matemáticas</td>
-                                <td>90</td>
-                            </tr>
-                            <tr>
-                                <td>Ciencias</td>
-                                <td>85</td>
-                            </tr>
-                            <!-- Aquí podrías iterar sobre los registros académicos y mostrarlos en la tabla -->
-                        </tbody>
-                    </table> -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 
 
