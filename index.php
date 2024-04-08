@@ -36,7 +36,11 @@ if (!isset($_SESSION['access_token'])) {
           </a>
           <ul class="dropdown-menu dropdown-menu-end">
             <li><a class="dropdown-item text-success" href="google_login.php?logout">Cerrar sesión</a></li>
+            <li><a class="dropdown-item text-success" href="interactuarcontrato.php">Contrato</a></li>
+
           </ul>
+
+          
         </li>
       </ul>
     </div>
