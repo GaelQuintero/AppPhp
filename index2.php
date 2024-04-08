@@ -13,3 +13,5 @@ $block = $blockchain->createBlock($proof, $previous_hash);
 
 echo "Nuevo Bloque Agregado";
 print_r($blockchain->chain);
+
+?>
