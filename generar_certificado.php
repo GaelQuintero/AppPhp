@@ -21,6 +21,11 @@ echo "<li><strong>Nombre del Usuario:</strong> $nombreUsuario</li>";
 echo "<li><strong>Fecha de Concesión:</strong> $fechaConcesion</li>";
 echo "<li><strong>LICENCIATURA EN PROGRAMACION:</strong><br>$textoCertificado</li>";
 echo "<li><strong>Firma Digital:</strong> $firma</li>";
+echo "   <div>
+<a href='index.php' class='btn btn-success btn-sm' type='submit' name='enviar'>
+Volver
+</a>
+</div>";
 echo "</ul>";
 echo "</div>";
 ?>

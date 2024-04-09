@@ -27,16 +27,14 @@ if (!isset($_SESSION['access_token'])) {
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="certificado.php">Certificacion</a>
-        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="<?php echo $_SESSION['userInfoData']['picture']; ?>" alt="Profile Picture" class="img-fluid rounded-circle" style="max-height: 50px; margin-left: 10px;">
           </a>
           <ul class="dropdown-menu dropdown-menu-end">
+           
+            <li><a class="dropdown-item text-success" href="certificado.php">Certificacion</a></li>
             <li><a class="dropdown-item text-success" href="google_login.php?logout">Cerrar sesión</a></li>
-            <li><a class="dropdown-item text-success" href="interactuarcontrato.php">Contrato</a></li>
 
           </ul>
 
